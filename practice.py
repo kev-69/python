@@ -1,6 +1,23 @@
-import math
-radius = float(input("what is the radius of the circle: "))
-pi_symbol =  "\u03C0"
-area = math.pi * radius ** 2
-print(f"The area of the circle with radius {radius} is: {area}")
-# print(f"The area is {radius ** 2}{pi_symbol}cm")
+# Immutability
+name = "Sam"
+last_letters = name[1:]
+print(last_letters)
+print("T" + last_letters + "e")
+
+# Concatination
+x = "Hello world!"
+x = x + "\nIt is beautiful outside"
+print(x)
+
+# String multiplication
+letter = "B"
+multiplied_string = letter * 10
+print(multiplied_string)
+
+# Builtin string methods
+uppercase_x = x.upper()
+print(uppercase_x)
+print(uppercase_x.split())
+# with the split method, you can also split on a particular letter
+print(uppercase_x.split("O"))
+# print(type(x))
