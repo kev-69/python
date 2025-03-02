@@ -1,7 +1,5 @@
 # Sets
-# Sets are unordered collection of unique elements
-from PIL.ImageChops import duplicate
-
+# Sets are unordered collection of unique elements. We can construct them by using the set() function. Let's go ahead and create a set to see how it works.
 my_set = set()
 my_set.add(1)
 my_set.add(2)
