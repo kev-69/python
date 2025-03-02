@@ -21,3 +21,7 @@ print(uppercase_x.split())
 # with the split method, you can also split on a particular letter
 print(uppercase_x.split("O"))
 # print(type(x))
+
+# loop through a string
+for letter in "Hello world!":
+    print(letter)
